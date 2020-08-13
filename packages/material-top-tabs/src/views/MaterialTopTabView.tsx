@@ -36,13 +36,14 @@ export default function MaterialTopTabView({
   const { colors } = useTheme();
 
   const renderTabBar = (props: SceneRendererProps) => {
-    return tabBar({
-      ...tabBarOptions,
-      ...props,
-      state: state,
-      navigation: navigation,
-      descriptors: descriptors,
-    });
+    return null;
+    // return tabBar({
+    //   ...tabBarOptions,
+    //   ...props,
+    //   state: state,
+    //   navigation: navigation,
+    //   descriptors: descriptors,
+    // });
   };
 
   return (
